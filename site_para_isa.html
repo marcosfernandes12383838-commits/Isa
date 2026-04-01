@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Para Isa</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ffb6c1,#ffe4e1);
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    font-size:50px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    max-width:600px;
+    margin:auto;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+button{
+    padding:15px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff1f4b;
+}
+</style>
+</head>
+
+<body>
+
+<h1>💌 Para Isa</h1>
+
+<div class="card">
+
+<p>
+Este pequeno site foi feito para mostrar o quanto você é uma pessoa especial.
+</p>
+
+<p>
+Seu jeito, seu sorriso e sua forma de ser fazem o dia de muita gente melhor.
+</p>
+
+<p>
+Espero que você nunca esqueça o quanto é incrível.
+</p>
+
+<button onclick="mostrar()">Clique aqui</button>
+
+<p id="mensagem"></p>
+
+</div>
+
+<script>
+function mostrar(){
+document.getElementById("mensagem").innerHTML =
+"✨ Você é uma pessoa muito importante. Nunca esqueça disso!";
+}
+</script>
+
+</body>
+</html>
